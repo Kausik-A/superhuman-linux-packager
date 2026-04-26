@@ -90,3 +90,4 @@ SUPERHUMAN_NO_SANDBOX=1 ./superhuman
 - The script currently supports x86_64 Linux only.
 - Superhuman may change their Electron app internals. If that happens, the script should fail loudly during patching instead of producing a silently broken package.
 - Native app auto-updates may not behave like an official Linux build.
+- If something doesn't work as expected, just ask your agent to fix it.
