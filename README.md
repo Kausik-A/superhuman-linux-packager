@@ -16,52 +16,6 @@ Output will be written to:
 ./dist-superhuman/
 ```
 
-## Install dependencies on Arch
-
-Minimum dependencies:
-
-```bash
-sudo pacman -S p7zip curl nodejs npm file python zstd
-```
-
-For Arch package output:
-
-```bash
-sudo pacman -S base-devel
-```
-
-## Build examples
-
-Portable tarball:
-
-```bash
-./package-superhuman-linux.sh --formats tar
-```
-
-Arch package:
-
-```bash
-./package-superhuman-linux.sh --formats arch
-```
-
-Debian/Ubuntu package, if `dpkg-deb` is installed:
-
-```bash
-./package-superhuman-linux.sh --formats deb
-```
-
-Multiple formats:
-
-```bash
-./package-superhuman-linux.sh --formats tar,arch
-```
-
-Try all supported formats:
-
-```bash
-./package-superhuman-linux.sh --formats all --download-appimagetool
-```
-
 ## Supported formats
 
 - `tar` — portable `.tar.zst`
