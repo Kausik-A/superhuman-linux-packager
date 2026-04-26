@@ -92,6 +92,7 @@ SUPERHUMAN_NO_SANDBOX=1 ./superhuman
 ## Notes
 
 - This is unofficial and not supported by Superhuman.
+- Built and tested with Superhuman `1038.0.31` and Electron `34.5.8` on x86_64 Arch Linux.
 - The script currently supports x86_64 Linux only.
 - Superhuman may change their Electron app internals. If that happens, the script should fail loudly during patching instead of producing a silently broken package.
 - Native app auto-updates may not behave like an official Linux build.
