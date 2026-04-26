@@ -1,0 +1,38 @@
+# Build outputs
+/dist-superhuman/
+/dist/
+/out/
+/build/
+
+# Temporary work directories
+/superhuman-repack.*/
+/work/
+/tmp/
+
+# Downloaded installers and extracted app contents
+*.exe
+*.7z
+*.asar
+*.AppImage
+*.deb
+*.rpm
+*.pkg.tar.*
+*.tar.zst
+*.tar.gz
+*.zip
+
+# Node/npm scratch if used locally
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
