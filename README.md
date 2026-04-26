@@ -3,7 +3,9 @@
 Unofficial script to repackage the official Superhuman Windows Electron installer into Linux packages.
 
 > **Warning**
-> This project is for educational purposes only. Use it at your own risk.
+> This project is unofficial and for educational purposes only. Use it at your own risk.
+> It is not affiliated with, endorsed by, or supported by Superhuman.
+> Do not redistribute generated packages unless you have the right to do so.
 
 The script downloads Superhuman from the official site, extracts the Electron app, patches the Linux login flow, bundles it with a Linux Electron runtime, and creates Linux package formats.
 
